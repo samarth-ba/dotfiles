@@ -10,5 +10,5 @@
 # Dependencies
 
 ```
-xorg-server xorg-xinit xorg-xsetroot xorg-xrdb xorg-xbacklight xf86-video-intel bspwm sxhkd scrot alacritty picom polybar rofi sxhkd nitrogen exa bat rg fd
+xorg-server xorg-xinit xorg-xsetroot xorg-xrdb xorg-xbacklight xf86-video-intel bspwm sxhkd scrot alacritty picom polybar rofi sxhkd nitrogen exa bat rg fd vim
 ```
