@@ -3,12 +3,12 @@
 #
 
 # terminal emulator
-super + Return
-	alacritty
+super + {_,shift +}Return
+	{alacritty, bspc rule -a \* -o state=floating && alacritty}
 
 # program launcher
 super + d
-	rofi -modi drun -show drun -font "monospace 13"
+	rofi -modi drun -show drun -font "JetBrains Mono 13"
 
 # make sxhk reload its configuration files:
 super + Escape
@@ -144,4 +144,4 @@ XF86Audio{Play,Prev,Next}
 
 # take a screenshot
 Print
-        scrot -q 100
+        scrot
