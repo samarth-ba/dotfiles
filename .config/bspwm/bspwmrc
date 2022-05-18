@@ -34,3 +34,6 @@ nitrogen --restore &
 
 # bar
 bash $HOME/.config/polybar/launch.sh &
+
+# polkit agent
+lxpolkit &
